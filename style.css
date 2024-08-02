@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:content-box;
+}
+body{
+  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: linear-gradient(to bottom right,rgb(212, 147, 190), rgb(92, 189, 221),rgb(102, 219, 178),rgb(212, 147, 190));
+padding:80px
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 50vh;
+}
+.container h1{
+  color: rgb(78, 77, 77);
+}
+form{
+  margin: 2rem 0 1rem 0;
+}
+.converter-container{
+    justify-content: center;
+  text-align: center;
+}
+.amount-container p{
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: 10px;
+ color: rgb(78, 77, 77);
+}
+.amount-container input{
+  width: 60%;
+  height: 1.5rem;
+  margin-top: 2px;
+  border: solid 1.5px;
+  border-radius: 0.5rem;
+  padding: 4px;
+  font-size: 18px;
+}
+.choose-country-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.choose-country-container p{
+  font-size: 20px;
+}
+.select-container{
+  display: block;
+  border: 1.5px solid;
+  border-radius: 0.5rem;
+  margin-bottom: 8px;
+  margin-top: 3px;
+  padding-right: 6px;
+}
+.select-container select{
+ margin-bottom: 6px;
+}
+.choose-country-container i {
+  margin-top: 55px;
+}
+.exchange-rate-container{
+  margin-top: 10px;
+  color: rgb(75, 12, 57);
+  font-size: 20px;
+}
+.convert-button{
+  background-color: white;
+  border: 1.5px solid;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  padding: 5px 3px;
+  margin-top: 10px;
+}
+.convert-button:hover{
+  background-color: #66c27e;
+  color: white;
+}
